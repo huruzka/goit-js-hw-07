@@ -25,3 +25,5 @@ const images = [
   }
 ];
 
+const listEl1 = document.createElement("li");
+
