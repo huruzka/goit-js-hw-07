@@ -26,4 +26,10 @@ const images = [
 ];
 
 const listEl1 = document.createElement("li");
+listEl1.classList.add("list_of_img");
 
+const imgEl1 = document.createElement("img");
+imgEl1.src = "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260";
+imgEl1.alt = "White and Black Long Fur Cat";
+
+listEl1.append(imgEl1);
