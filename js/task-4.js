@@ -5,7 +5,7 @@ form.addEventListener("submit", (event) => {
     const {
         email,
         password
-    } = form.elemets;
+    } = form.elements;
 
     const emailValue = email.value.trim();
     const passwordValue = password.value.trim();
